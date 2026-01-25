@@ -1,5 +1,5 @@
 <div align="center">   
-  
+
 # Multi-Resolution Alignment for Voxel Sparsity in Camera-Based 3D Semantic Scene Completion
 </div>
 
@@ -8,12 +8,10 @@
 <!-- >  [[Arxiv]](https://arxiv.org/pdf/2312.05752.pdf) -->
 
 
-<!-- ## News
-- [2024/09]: Accepted by IEEE TIP 2024!
-- [2023/12]: We release the evaluation results and training code for SSCBench-KITTI-360.
-- [2023/12]: Our paper is on [arxiv](https://arxiv.org/pdf/2312.05752.pdf).
-- [2023/08]: SGN achieve the SOTA on Camera-based [SemanticKITTI 3D SSC (Semantic Scene Completion) Task](http://www.semantic-kitti.org/tasks.html#ssc) with **15.76% mIoU** and **45.52% IoU**.
-</br> -->
+## News
+- [2026/01]: Accepted by IEEE TIP 2026!
+- [2025/12]: We release the evaluation results and training code for SemanticKITTI and SSCBench-KITTI-360.
+</br>
 
 
 ## Abstract
@@ -38,7 +36,7 @@ Please refer to [Voxformer](https://github.com/NVlabs/VoxFormer) to create base 
 ### Prepare Dataset
 Please refer to the [README](preprocess/README.md) in the preprocess folder for details.
 ### Run and Eval
-  
+
 Train MRA with 4 GPUs 
 ```
 ./tools/dist_train.sh ./projects/configs/mra/MRA-T.py 4
@@ -59,15 +57,15 @@ Many thanks to these excellent open source projects:
 - [MonoScene](https://github.com/astra-vision/MonoScene)
 - [AICNet](https://github.com/waterljwant/SSC)
 
-<!-- ## Ciatation
+## Ciatation
 
 If you find this project helpful, please consider citing the following paper:
 ```
-@article{mei2024camera,
-  title={Camera-based 3d semantic scene completion with sparse guidance network},
-  author={Mei, Jianbiao and Yang, Yu and Wang, Mengmeng and Zhu, Junyu and Ra, Jongwon and Ma, Yukai and Li, Laijian and Liu, Yong},
+@article{yang2026multi,
+  title={Multi-Resolution Alignment for Voxel Sparsity in Camera-Based 3D Semantic Scene Completion},
+  author={Yang, Zhiwen and Peng, Yuxin},
   journal={IEEE Transactions on Image Processing},
-  year={2024},
+  year={2026},
   publisher={IEEE}
 }
-``` -->
+```
